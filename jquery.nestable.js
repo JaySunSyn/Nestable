@@ -272,7 +272,8 @@
             $(document.body).append(this.dragEl);
             this.dragEl.css({
                 'left' : e.pageX - mouse.offsetX,
-                'top'  : e.pageY - mouse.offsetY
+                'top'  : e.pageY - mouse.offsetY,
+                'position':'absolute'
             });
             // total depth of dragging item
             var i, depth,
